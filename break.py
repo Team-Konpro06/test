@@ -1,25 +1,9 @@
-print ("=============")
-print ("   Biodata   ")
-print ("=============")
-#variabel
-nama= str(input("Masukan Nama Anda: "))
-alamat= str(input("Masukan Alamat: "))
-ttl= str(input ("Masukan Tempat Tanggal Lahir Anda: "))
-jk= str(input ("Jenis Kelamin: "))
-agama= str(input ("Masukan Agama: "))
-pekerjaan= str(input ("Pekerjaan: "))
-hoby= str(input ("Masukan Hoby: "))
-km= str(input ("Kata Mutiara: "))
+flag = 1
 
-#Menampilkan Inputan User
-print ("============")
-print ("Biodata Anda")
-print ("============")
-print ("Nama: ",nama)
-print ("Alamat: ",alamat)
-print ("Tempat Tanggal Lahir: ",ttl)
-print ("Jenis Kelamin: ",jk)
-print ("Agama: ",agama)
-print ("Pekerjaan: ",pekerjaan)
-print ("Hoby: ",hoby)
-print ("Kata Mutiara: ",km)
+while (flag):
+	nama = input("Masukan nama: ")
+	if nama == "Python":
+		print ("Nama saya Canda"),
+		print ("Goodbye Canda")
+		break
+	print ("Nama saya" , nama)
