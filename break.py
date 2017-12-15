@@ -1,9 +1,24 @@
-flag = 1
-
-while (flag):
-	nama = input("Masukan nama: ")
-	if nama == "Python":
-		print ("Nama saya Canda"),
-		print ("Goodbye Canda")
-		break
-	print ("Nama saya" , nama)
+for i in range(0,1):
+	for j in range(0,i+5):
+		print("*",end=" ")
+	print()
+	
+for i in range(0,1):
+	for j in range(0,i+4):
+		print("*",end=" ")
+	print()
+	
+for i in range(0,1):
+	for j in range(0,i+3):
+		print("*",end=" ")
+	print()
+	
+for i in range(0,1):
+	for j in range(0,i+2):
+		print("*",end=" ")
+	print()
+	
+for i in range(0,1):
+	for j in range(0,i+1):
+		print("*",end=" ")
+	print()
