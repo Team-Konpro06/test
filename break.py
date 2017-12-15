@@ -1,25 +1,25 @@
-#for i in range(0,5):
-#	if i == 3:
-#		print("angka 3 didapat")
-#		break
-#	print(i)
-	
-#i = 0
-#while i < 5:
-#	if i == 3:
-#		print("angka 3 terambil")
-#		break
-#	print(i)
-#	i+=10
-	
-#for i in range(5):
-#	if i == 3:
-#		pass
-#		print("ini pass")
-#	print("angka sekarang : ",i)
-	
-for i in range(5):
-	if i == 3:
-		continue
-		print("ini continue")
-	print("angka sekarang : ",i)
+print ("=============")
+print ("   Biodata   ")
+print ("=============")
+#variabel
+nama= str(input("Masukan Nama Anda: "))
+alamat= str(input("Masukan Alamat: "))
+ttl= str(input ("Masukan Tempat Tanggal Lahir Anda: "))
+jk= str(input ("Jenis Kelamin: "))
+agama= str(input ("Masukan Agama: "))
+pekerjaan= str(input ("Pekerjaan: "))
+hoby= str(input ("Masukan Hoby: "))
+km= str(input ("Kata Mutiara: "))
+
+#Menampilkan Inputan User
+print ("============")
+print ("Biodata Anda")
+print ("============")
+print ("Nama: ",nama)
+print ("Alamat: ",alamat)
+print ("Tempat Tanggal Lahir: ",ttl)
+print ("Jenis Kelamin: ",jk)
+print ("Agama: ",agama)
+print ("Pekerjaan: ",pekerjaan)
+print ("Hoby: ",hoby)
+print ("Kata Mutiara: ",km)

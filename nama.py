@@ -1,14 +1,25 @@
-#PROGRAM EKSEKUSI WHILE
-nama = ""
+print ("=============")
+print ("   Biodata   ")
+print ("=============")
+#variabel
+nama= str(input("Masukan Nama Anda: "))
+alamat= str(input("Masukan Alamat: "))
+ttl= str(input ("Masukan Tempat Tanggal Lahir Anda: "))
+jk= str(input ("Jenis Kelamin: "))
+agama= str(input ("Masukan Agama: "))
+pekerjaan= str(input ("Pekerjaan: "))
+hoby= str(input ("Masukan Hoby: "))
+km= str(input ("Kata Mutiara: "))
 
-#konsep while (akan melakukan perulangan), hingga
-#counter dari while terpenuhi, counter --> nama
-
-#apabila nama tidak sama dengan python
-while nama != "python" :
-	#apabila (nama!="python") = true
-	#kode dibawah akan di jalankan
-	nama = raw_input("Masukan nama : ")
-	print("Nama saya ",nama)
-	if nama == "python":
-		print("Goodbye ",nama)
+#Menampilkan Inputan User
+print ("============")
+print ("Biodata Anda")
+print ("============")
+print ("Nama: ",nama)
+print ("Alamat: ",alamat)
+print ("Tempat Tanggal Lahir: ",ttl)
+print ("Jenis Kelamin: ",jk)
+print ("Agama: ",agama)
+print ("Pekerjaan: ",pekerjaan)
+print ("Hoby: ",hoby)
+print ("Kata Mutiara: ",km)
